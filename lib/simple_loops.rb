@@ -6,6 +6,14 @@ def loop_message_five_times(pokemon)
   end
 end
 
+def loop_message_n_times(pokemon, 4)
+  count = 0
+  while count < 4 do
+    puts pokemon
+    count += 1
+  end
+end
+
 def output_array
 end
 
