@@ -6,9 +6,9 @@ def loop_message_five_times(pokemon)
   end
 end
 
-def loop_message_n_times(pokemon, 4)
+def loop_message_n_times(pokemon, limit)
   count = 0
-  while count < 4 do
+  while count < limit do
     puts pokemon
     count += 1
   end
